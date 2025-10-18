@@ -1,0 +1,70 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.ExaminationHeaderImage img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.ExaminationHeading {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 4px red;
+    padding-left: 20px;
+}
+.ExaminationContent h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    padding-left: 20px;
+}
+marquee {
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Notifications {
+    list-style-type: none;
+}
+.Notifications li  i{
+    font-size: 25px;
+    color: red;
+}
+.Notifications li {
+    font-size: 20px;
+    margin-right: 80px;
+    margin-bottom: 15px;
+}
+.ExaminationContent2 h2 {
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    padding-left: 20px;
+}
+.Timetable {
+    list-style-type: none;
+}
+.Timetable li {
+    font-size: 20px;
+    margin-right: 80px;
+    margin-bottom: 15px;
+}
+.Timetable li i {
+    font-size: 25px;
+    color: red;
+}
+.ExaminationContent2 {
+    margin-bottom: 50px;
+}
+.Timetable li:first-child {
+    color: yellow;
+    font-weight: bold;
+}
+
+

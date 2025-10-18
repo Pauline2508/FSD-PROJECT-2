@@ -1,0 +1,72 @@
+$bg-color: #0d1b2a;             
+$heading-color: #ffffff;        
+$link-color: #1f6feb;           
+$list-bg: #1b263b;              
+$headingtwo-color: #a9c4f5;     
+$nav-bg: #1f4068;               
+$nav-text: #e0e0e0;             
+$nav-hover-bg: #415a77;         
+$nav-hover-text: #ffffff;    
+
+@mixin responsive-width($width) {
+  width: $width;
+}
+
+@mixin text-style($color, $align: center, $decoration: none) {
+  color: $color;
+  text-align: $align;
+  text-decoration: $decoration;
+}
+
+@mixin box-default {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+%heading {
+  margin-bottom: 10px;
+}
+
+%heading-secondary {
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: $bg-color;
+  @include box-default;
+}
+
+h2 {
+  color: $heading-color;
+  @extend %heading;
+}
+
+h4 {
+  color: $headingtwo-color;
+  @extend %heading-secondary;
+}
+
+.nav a {
+  float: left;
+  @include responsive-width(25%);
+  @include text-style($nav-text);
+  padding-bottom: 40px;
+}
+
+.nav a:hover {
+  background-color: $nav-hover-bg;
+  color: $nav-hover-text;
+}
+
+@media screen and (max-width:1000px) {
+    .nav a {
+        width: 50%;
+    }   
+}
+
+@media screen and (max-width:600px) {
+    .nav a {
+        width: 100%;
+    }   
+}

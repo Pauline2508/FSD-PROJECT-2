@@ -1,0 +1,17 @@
+.AdmissionEnquiry {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.AdmissionEnquiry h1 {
+  color: darkblue;
+  font-size: 30px;
+}
+.AdmissionEnquiry h4 {
+  color: navy;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=AdmissionEnquiry.css.map */

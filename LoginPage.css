@@ -1,0 +1,43 @@
+body {
+  background-color: #0d1b2a;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #a9c4f5;
+  margin-bottom: 20px;
+}
+
+.nav a {
+  float: left;
+  width: 25%;
+  color: #e0e0e0;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 40px;
+}
+
+.nav a:hover {
+  background-color: #415a77;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 1000px) {
+  .nav a {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav a {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=LoginPage.css.map */

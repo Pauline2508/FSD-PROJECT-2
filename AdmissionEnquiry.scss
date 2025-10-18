@@ -1,0 +1,21 @@
+$bg-color: lightblue;
+$main-text-color: darkblue;
+$sub-text-color: navy;
+
+.AdmissionEnquiry {
+  background-color: $bg-color;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+
+  h1 {
+    color: $main-text-color;
+    font-size: 20px;
+  }
+
+  h4 {
+    color: $sub-text-color;
+    font-weight: normal;
+    font-size: 15px;
+  }
+}

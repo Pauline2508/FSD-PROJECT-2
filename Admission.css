@@ -1,0 +1,82 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.AdmissionImage1 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.AdmissionEnquiry {
+    margin-top: 50px;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+.AdmissionEnquiry h2, .LocationBox h2 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.EnquiryBox {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 50px;
+    background-color: bisque;
+    height: 500px;
+}
+.EnquiryBox {
+    width: 600px;
+}
+form {
+    margin: 25px;
+    height: 350px;
+    width: 550px;
+    background: linear-gradient(to right, #8B0000, #4B0000);
+}
+input {
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 40px;
+    border-radius: 5px;
+}
+select {
+    width: 508px;
+    margin-left: 20px;
+    margin-top: 10px;
+    height: 42px;
+    border-radius: 5px;
+}
+.course {
+    margin-bottom: 20px;
+}
+.SubmitButton {
+    margin-left: 240px;
+    height: 50px;
+    width: 120px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    padding: 5px;
+}
+.LocationBox {
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 50px;
+    height: 500px;
+}
+iframe {
+    margin: 25px;
+    height: 350px;
+    width: 550px;
+}
+.AdmissionEnquiry::after {
+    content: "";
+    clear: both;
+}
